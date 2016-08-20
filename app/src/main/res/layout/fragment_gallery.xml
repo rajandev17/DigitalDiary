@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.rajanks.digitaldiary.UI.Fragments.Gallery.GalleryFragment">
+
+    <com.rajanks.digitaldiary.UI.CustomViews.AmazeTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:font="elite"
+        android:textColor="#222"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:id="@+id/eventBtn"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:text="Independace Day ( 15th Aug 2016)"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gallery_list"
+        android:background="#fff"
+        android:divider="@color/white"
+        android:dividerHeight="5dp"
+        android:visibility="gone"
+        android:scrollbars="none"></ListView>
+</RelativeLayout>
